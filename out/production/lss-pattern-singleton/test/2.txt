@@ -1,0 +1,14 @@
+Compiled from "ResourceOperateStep.java"
+final class test.ResourceOperateStep extends java.lang.Enum<test.ResourceOperateStep> {
+  public static final test.ResourceOperateStep GG;
+  public static final test.ResourceOperateStep GP;
+  public static final test.ResourceOperateStep GPONEHOUR;
+  public static final test.ResourceOperateStep XS;
+  public static final test.ResourceOperateStep OVER;
+  public static test.ResourceOperateStep[] values();
+  public static test.ResourceOperateStep valueOf(java.lang.String);
+  public java.lang.String getCode(java.lang.String);
+  public java.lang.String toString();
+  public static void main(java.lang.String[]);
+  static {};
+}

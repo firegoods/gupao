@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/design/design.iml" filepath="$PROJECT_DIR$/design/design.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lss-pattern-factory/lss-pattern-factory.iml" filepath="$PROJECT_DIR$/lss-pattern-factory/lss-pattern-factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lss-pattern-prototype/lss-pattern-prototype.iml" filepath="$PROJECT_DIR$/lss-pattern-prototype/lss-pattern-prototype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lss-pattern-singleton/lss-pattern-singleton.iml" filepath="$PROJECT_DIR$/lss-pattern-singleton/lss-pattern-singleton.iml" />
+    </modules>
+  </component>
+</project>
