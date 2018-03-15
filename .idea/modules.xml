@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/lss-pattern-factory/lss-pattern-factory.iml" filepath="$PROJECT_DIR$/lss-pattern-factory/lss-pattern-factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/lss-pattern-prototype/lss-pattern-prototype.iml" filepath="$PROJECT_DIR$/lss-pattern-prototype/lss-pattern-prototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/lss-pattern-singleton/lss-pattern-singleton.iml" filepath="$PROJECT_DIR$/lss-pattern-singleton/lss-pattern-singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lss-pattern-template/lss-pattern-template.iml" filepath="$PROJECT_DIR$/lss-pattern-template/lss-pattern-template.iml" />
     </modules>
   </component>
 </project>
