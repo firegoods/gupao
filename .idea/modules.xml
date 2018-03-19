@@ -5,7 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/design/design.iml" filepath="$PROJECT_DIR$/design/design.iml" />
       <module fileurl="file://$PROJECT_DIR$/lss-pattern-factory/lss-pattern-factory.iml" filepath="$PROJECT_DIR$/lss-pattern-factory/lss-pattern-factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/lss-pattern-prototype/lss-pattern-prototype.iml" filepath="$PROJECT_DIR$/lss-pattern-prototype/lss-pattern-prototype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lss-pattern-proxy/lss-pattern-proxy.iml" filepath="$PROJECT_DIR$/lss-pattern-proxy/lss-pattern-proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/lss-pattern-singleton/lss-pattern-singleton.iml" filepath="$PROJECT_DIR$/lss-pattern-singleton/lss-pattern-singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lss-pattern-strategy/lss-pattern-strategy.iml" filepath="$PROJECT_DIR$/lss-pattern-strategy/lss-pattern-strategy.iml" />
       <module fileurl="file://$PROJECT_DIR$/lss-pattern-template/lss-pattern-template.iml" filepath="$PROJECT_DIR$/lss-pattern-template/lss-pattern-template.iml" />
     </modules>
   </component>

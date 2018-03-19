@@ -29,27 +29,110 @@
     <favorites_list name="homework" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lss-pattern-proxy/src/com/lss/pattern/proxy/statied/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Father.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lss-pattern-proxy/src/com/lss/pattern/proxy/statied/Father.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StatiedTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lss-pattern-proxy/src/com/lss/pattern/proxy/statied/StatiedTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7866242" vertical-offset="228" max-vertical-offset="665">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Collection.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Collection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2138" max-vertical-offset="11001">
+              <caret line="140" column="13" selection-start-line="140" selection-start-column="13" selection-end-line="140" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HashMap.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/HashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="23114" max-vertical-offset="44156">
+              <caret line="1279" column="16" selection-start-line="1279" selection-start-column="16" selection-end-line="1279" selection-end-column="16" />
+              <folding>
+                <element signature="e#19296#19297#0" expanded="true" />
+                <element signature="e#19379#19380#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractMap.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/AbstractMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="732" max-vertical-offset="15029">
+              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Map.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="6337" max-vertical-offset="22097">
+              <caret line="374" column="19" selection-start-line="374" selection-start-column="14" selection-end-line="374" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Object.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/Object.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2252" max-vertical-offset="10203">
+              <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
+              <folding>
+                <element signature="e#5748#5749#0" expanded="true" />
+                <element signature="e#5784#5785#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.6333334" vertical-offset="17637" max-vertical-offset="58311">
+              <caret line="989" column="24" selection-start-line="989" selection-start-column="21" selection-end-line="989" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lss-pattern-singleton/src/lazy/LazyFour.java" />
-        <option value="$PROJECT_DIR$/lss-pattern-singleton/src/test/LazyTest.java" />
-        <option value="$PROJECT_DIR$/lss-pattern-singleton/src/test/HungryTest.java" />
-        <option value="$PROJECT_DIR$/lss-pattern-singleton/src/test/LazyTwoTest.java" />
-        <option value="$PROJECT_DIR$/lss-pattern-singleton/src/test/LazyThreeTest.java" />
-        <option value="$PROJECT_DIR$/lss-pattern-singleton/src/test/LazyOneTest.java" />
-        <option value="$PROJECT_DIR$/lss-pattern-singleton/src/test/LazyFourTest.java" />
-        <option value="$PROJECT_DIR$/lss-pattern-singleton/src/test/Pojo.java" />
-        <option value="$PROJECT_DIR$/lss-pattern-singleton/src/test/BeanFactoryTest.java" />
-        <option value="$PROJECT_DIR$/lss-pattern-singleton/src/register/BeanFactory.java" />
-        <option value="$PROJECT_DIR$/lss-pattern-singleton/src/test/Constants.java" />
-        <option value="$PROJECT_DIR$/lss-pattern-singleton/src/test/ResourceOperateStep.java" />
-        <option value="$PROJECT_DIR$/lss-pattern-singleton/src/test/ColorTest.java" />
-        <option value="$PROJECT_DIR$/lss-pattern-singleton/src/register/Planet.java" />
-        <option value="$PROJECT_DIR$/lss-pattern-singleton/src/register/Color.java" />
-        <option value="$PROJECT_DIR$/lss-pattern-singleton/src/test/SeriableTest.java" />
         <option value="$PROJECT_DIR$/lss-pattern-factory/src/Milk.java" />
         <option value="$PROJECT_DIR$/lss-pattern-factory/src/simple/Milk.java" />
         <option value="$PROJECT_DIR$/lss-pattern-factory/src/simple/Yili.java" />
@@ -85,6 +168,22 @@
         <option value="$PROJECT_DIR$/lss-pattern-prototype/src/prototype/test/DeepGreatestSageTest.java" />
         <option value="$PROJECT_DIR$/lss-pattern-prototype/src/prototype/deep/GlodBar.java" />
         <option value="$PROJECT_DIR$/lss-pattern-template/src/test/ArrayListRemoveTest.java" />
+        <option value="$PROJECT_DIR$/lss-pattern-template/src/template/JdbcTemplate.java" />
+        <option value="$PROJECT_DIR$/lss-pattern-template/src/template/RowMapper.java" />
+        <option value="$PROJECT_DIR$/lss-pattern-template/src/template/entity/Member.java" />
+        <option value="$PROJECT_DIR$/lss-pattern-template/src/template/dao/MemberDao.java" />
+        <option value="$PROJECT_DIR$/lss-pattern-template/src/template/MemberDaoTest.java" />
+        <option value="$PROJECT_DIR$/lss-pattern-strategy/src/java/com/lss/homework/pattern/strategy/pay/payport/Payment.java" />
+        <option value="$PROJECT_DIR$/lss-pattern-strategy/src/java/com/lss/homework/pattern/strategy/pay/payport/AliPay.java" />
+        <option value="$PROJECT_DIR$/lss-pattern-strategy/src/java/com/lss/homework/pattern/strategy/pay/payport/PayState.java" />
+        <option value="$PROJECT_DIR$/lss-pattern-strategy/src/java/com/lss/homework/pattern/strategy/pay/payport/Order.java" />
+        <option value="$PROJECT_DIR$/lss-pattern-strategy/src/java/com/lss/homework/pattern/strategy/pay/payport/JDPay.java" />
+        <option value="$PROJECT_DIR$/lss-pattern-strategy/src/java/com/lss/homework/pattern/strategy/pay/payport/PayType.java" />
+        <option value="$PROJECT_DIR$/lss-pattern-strategy/src/java/com/lss/homework/pattern/strategy/pay/test/PayStrategy.java" />
+        <option value="$PROJECT_DIR$/lss-pattern-proxy/src/com/lss/pattern/proxy/statied/Person.java" />
+        <option value="$PROJECT_DIR$/lss-pattern-proxy/src/com/lss/pattern/proxy/statied/Son.java" />
+        <option value="$PROJECT_DIR$/lss-pattern-proxy/src/com/lss/pattern/proxy/statied/Father.java" />
+        <option value="$PROJECT_DIR$/lss-pattern-proxy/src/com/lss/pattern/proxy/statied/StatiedTest.java" />
       </list>
     </option>
   </component>
@@ -114,18 +213,17 @@
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
+      <flattenPackages ProjectPane="false" />
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages />
+      <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
+      <autoscrollToSource ProjectPane="false" />
+      <autoscrollFromSource ProjectPane="false" />
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -151,15 +249,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lss-pattern-template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="lss-pattern-strategy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -169,15 +259,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lss-pattern-template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
+              <option name="myItemId" value="lss-pattern-singleton" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -187,19 +269,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lss-pattern-template" />
+              <option name="myItemId" value="lss-pattern-singleton" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -209,7 +283,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lss-pattern-template" />
+              <option name="myItemId" value="lss-pattern-proxy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lss-pattern-proxy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -217,16 +301,79 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
+              <option name="myItemId" value="lss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proxy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lss-pattern-proxy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proxy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="statied" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lss-pattern-prototype" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lss-pattern-factory" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -260,79 +407,7 @@
       <recent name="factory.simple" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayListRemoveTest">
-    <configuration default="false" name="SimpleTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="prototype.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="prototype.test.SimpleTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="lss-pattern-prototype" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="CloneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="prototype.simple.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="prototype.simple.CloneTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="lss-pattern-prototype" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="SimpleTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="prototype.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="prototype.test.SimpleTest2" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="lss-pattern-prototype" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.StatiedTest">
     <configuration default="false" name="DeepGreatestSageTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -380,6 +455,72 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MemberDaoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="template.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="template.MemberDaoTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="lss-pattern-template" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PayStrategy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.lss.homework.pattern.strategy.pay.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.lss.homework.pattern.strategy.pay.test.PayStrategy" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="lss-pattern-strategy" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="StatiedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.lss.pattern.proxy.statied.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.lss.pattern.proxy.statied.StatiedTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="lss-pattern-proxy" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -626,19 +767,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.SimpleTest (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.CloneTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SimpleTest2" />
-      <item index="3" class="java.lang.String" itemvalue="Application.DeepGreatestSageTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ArrayListRemoveTest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.DeepGreatestSageTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ArrayListRemoveTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MemberDaoTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.PayStrategy" />
+      <item index="4" class="java.lang.String" itemvalue="Application.StatiedTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ArrayListRemoveTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.DeepGreatestSageTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SimpleTest2" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SimpleTest (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.CloneTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.StatiedTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PayStrategy" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MemberDaoTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ArrayListRemoveTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.DeepGreatestSageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -657,15 +798,17 @@
       <workItem from="1520901024366" duration="20052000" />
       <workItem from="1520987852586" duration="13749000" />
       <workItem from="1521074303836" duration="6264000" />
+      <workItem from="1521161820004" duration="7212000" />
+      <workItem from="1521420622259" duration="10832000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52971000" />
+    <option name="totallyTimeSpent" value="71015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -678,10 +821,10 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21672355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41467577" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="561" y="293" width="330" height="343" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -731,204 +874,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lss-pattern-singleton/src/test/BeanFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/Enum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3913" max-vertical-offset="4294">
-          <caret line="139" column="27" selection-start-line="139" selection-start-column="27" selection-end-line="139" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lss-pattern-singleton/src/test/ResourceOperateStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="23" />
-          <folding>
-            <element signature="e#612#613#0" expanded="false" />
-            <element signature="e#640#641#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lss-pattern-singleton/src/register/Planet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lss-pattern-singleton/src/register/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="206" max-vertical-offset="570">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lss-pattern-singleton/src/test/ColorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="874">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/java.io.Serializable">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.io.Serializable</OriginalElement>
-          <nodes>
-            <node x="" y="">java.io.Serializable</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="50.0" y="16.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Inner Classes</Category>
-            <Category>Constructors</Category>
-            <Category>Properties</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/io/ObjectInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.9333334" vertical-offset="194" max-vertical-offset="1710">
-          <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/io/Serializable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.9" vertical-offset="2245" max-vertical-offset="2907">
-          <caret line="135" column="40" selection-start-line="135" selection-start-column="40" selection-end-line="135" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/io/ObjectInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0329342" vertical-offset="7812" max-vertical-offset="67089">
-          <caret line="434" column="71" selection-start-line="434" selection-start-column="60" selection-end-line="434" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/io/ObjectOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33233532" vertical-offset="6710" max-vertical-offset="45828">
-          <caret line="393" column="20" selection-start-line="393" selection-start-column="16" selection-end-line="393" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/awt/AWTEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6728972" vertical-offset="10576" max-vertical-offset="10944">
-          <caret line="618" column="5" selection-start-line="618" selection-start-column="5" selection-end-line="618" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/io/ObjectOutput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.2" vertical-offset="194" max-vertical-offset="1387">
-          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="41.7" vertical-offset="5412" max-vertical-offset="10165">
-          <caret line="246" column="71" selection-start-line="246" selection-start-column="67" selection-end-line="246" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lss-pattern-singleton/src/test/SeriableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4566929" vertical-offset="130" max-vertical-offset="893">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lss-pattern-singleton/src/seriable/Seriable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6666667" vertical-offset="259" max-vertical-offset="684">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lss-pattern-singleton/src/test/LazyFourTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.1496063" vertical-offset="228" max-vertical-offset="779">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lss-pattern-factory/src/factory/simple/SimpleFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="12" max-vertical-offset="532">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lss-pattern-factory/src/factory/test/SimpleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24934383" vertical-offset="0" max-vertical-offset="418">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lss-pattern-factory/src/factory/Milk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lss-pattern-factory/src/factory/func/Factory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45238096" vertical-offset="0" max-vertical-offset="336">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lss-pattern-factory/src/factory/func/YiliFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6220238" vertical-offset="0" max-vertical-offset="380">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lss-pattern-factory/src/factory/Mengniu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5654762" vertical-offset="0" max-vertical-offset="336">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lss-pattern-factory/src/factory/func/MengniuFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6220238" vertical-offset="0" max-vertical-offset="380">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lss-pattern-factory/src/factory/func/FunctionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39583334" vertical-offset="0" max-vertical-offset="336">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lss-pattern-factory/src/factory/test/FunctionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.54761904" vertical-offset="101" max-vertical-offset="513">
@@ -957,14 +902,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="20698" max-vertical-offset="58311">
-          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lss-pattern-prototype/src/prototype/simple/CloneTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="1045">
@@ -983,9 +920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="399">
           <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="10" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -993,9 +927,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.50089765" vertical-offset="101" max-vertical-offset="1007">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#256#264#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1003,7 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="703">
           <caret line="48" column="48" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1011,7 +941,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="253" max-vertical-offset="665">
           <caret line="27" column="5" selection-start-line="9" selection-start-column="3" selection-end-line="27" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1019,7 +948,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="139" max-vertical-offset="646">
           <caret line="10" column="70" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,19 +955,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="836">
           <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-          <folding>
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1047,7 +962,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="97" max-vertical-offset="646">
           <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1055,7 +969,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44344702" vertical-offset="0" max-vertical-offset="557">
           <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1063,9 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.79533213" vertical-offset="32" max-vertical-offset="589">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#228#236#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1073,9 +983,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13285458" vertical-offset="116" max-vertical-offset="1691">
           <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1083,15 +990,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.66071427" vertical-offset="708" max-vertical-offset="13642">
           <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lss-pattern-template/src/template/dao/MemberDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1099,15 +997,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5107143" vertical-offset="2289" max-vertical-offset="13585">
           <caret line="151" column="16" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lss-pattern-template/src/template/entity/Member.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1115,40 +1004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.98571426" vertical-offset="427" max-vertical-offset="1881">
           <caret line="60" column="7" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lss-pattern-template/src/template/JdbcTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.836" vertical-offset="15162" max-vertical-offset="26581">
-          <caret line="850" column="37" selection-start-line="850" selection-start-column="37" selection-end-line="850" selection-end-column="37" />
-          <folding>
-            <element signature="e#6252#6253#0" expanded="true" />
-            <element signature="e#6320#6321#0" expanded="true" />
-            <element signature="e#30684#30685#0" expanded="true" />
-            <element signature="e#30716#30717#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lss-pattern-template/src/test/ArrayListRemoveTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1089" max-vertical-offset="2926">
-          <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#437#445#0" expanded="true" />
-            <element signature="e#1300#1308#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1157,8 +1012,304 @@
         <state vertical-scroll-proportion="0.71428573" vertical-offset="807" max-vertical-offset="30248">
           <caret line="101" column="63" selection-start-line="101" selection-start-column="63" selection-end-line="101" selection-end-column="63" />
           <folding>
-            <element signature="e#3497#3498#0" expanded="true" />
-            <element signature="e#3522#3523#0" expanded="true" />
+            <element signature="e#3497#3498#0" expanded="false" />
+            <element signature="e#3522#3523#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/sql/PreparedStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33213645" vertical-offset="7795" max-vertical-offset="24700">
+          <caret line="446" column="9" selection-start-line="446" selection-start-column="9" selection-end-line="446" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/javax/sql/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1031" max-vertical-offset="1710">
+          <caret line="89" column="10" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/sql/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="936" max-vertical-offset="27892">
+          <caret line="80" column="17" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/javax/swing/tree/RowMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40933573" vertical-offset="0" max-vertical-offset="557">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.83681214" vertical-offset="11073" max-vertical-offset="26543">
+          <caret line="641" column="23" selection-start-line="641" selection-start-column="23" selection-end-line="641" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lss-pattern-template/src/template/entity/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="621" max-vertical-offset="1311">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <element signature="e#280#281#0" expanded="false" />
+            <element signature="e#305#306#0" expanded="false" />
+            <element signature="e#341#342#0" expanded="false" />
+            <element signature="e#369#370#0" expanded="false" />
+            <element signature="e#400#401#0" expanded="false" />
+            <element signature="e#427#428#0" expanded="false" />
+            <element signature="e#467#468#0" expanded="false" />
+            <element signature="e#499#500#0" expanded="false" />
+            <element signature="e#534#535#0" expanded="false" />
+            <element signature="e#565#566#0" expanded="false" />
+            <element signature="e#613#614#0" expanded="false" />
+            <element signature="e#653#654#0" expanded="false" />
+            <element signature="e#688#689#0" expanded="false" />
+            <element signature="e#719#720#0" expanded="false" />
+            <element signature="e#767#768#0" expanded="false" />
+            <element signature="e#807#808#0" expanded="false" />
+            <element signature="e#841#842#0" expanded="false" />
+            <element signature="e#871#872#0" expanded="false" />
+            <element signature="e#917#918#0" expanded="false" />
+            <element signature="e#955#956#0" expanded="false" />
+            <element signature="e#983#984#0" expanded="false" />
+            <element signature="e#1009#1010#0" expanded="false" />
+            <element signature="e#1044#1045#0" expanded="false" />
+            <element signature="e#1074#1075#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/Override.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7271095" vertical-offset="108" max-vertical-offset="665">
+          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lss-pattern-template/src/test/ArrayListRemoveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="627" max-vertical-offset="2926">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#437#445#0" expanded="false" />
+            <element signature="e#1300#1308#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lss-pattern-template/src/template/JdbcTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="380" max-vertical-offset="1159">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lss-pattern-template/src/template/RowMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lss-pattern-template/src/template/MemberDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lss-pattern-template/src/template/dao/MemberDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="760">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding>
+            <element signature="e#418#1030#0" expanded="false" />
+            <element signature="e#1029#1030#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/math/BigDecimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="7480" max-vertical-offset="98534">
+          <caret line="219" column="13" selection-start-line="219" selection-start-column="13" selection-end-line="219" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lss-pattern-strategy/src/java/com/lss/homework/pattern/strategy/pay/payport/Payment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3933" max-vertical-offset="7752">
+          <caret line="75" column="19" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lss-pattern-strategy/src/java/com/lss/homework/pattern/strategy/pay/payport/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="627">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding>
+            <element signature="e#579#580#0" expanded="false" />
+            <element signature="e#649#650#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lss-pattern-strategy/src/java/com/lss/homework/pattern/strategy/pay/payport/AliPay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72611463" vertical-offset="0" max-vertical-offset="399">
+          <caret line="12" column="47" selection-start-line="10" selection-start-column="7" selection-end-line="12" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lss-pattern-strategy/src/java/com/lss/homework/pattern/strategy/pay/payport/JDPay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66560507" vertical-offset="0" max-vertical-offset="380">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lss-pattern-strategy/src/java/com/lss/homework/pattern/strategy/pay/payport/PayState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="627">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lss-pattern-strategy/src/java/com/lss/homework/pattern/strategy/pay/payport/PayType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="140" max-vertical-offset="551">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#304#305#0" expanded="false" />
+            <element signature="e#342#343#0" expanded="false" />
+            <element signature="e#375#376#0" expanded="false" />
+            <element signature="e#410#411#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lss-pattern-strategy/src/java/com/lss/homework/pattern/strategy/pay/test/PayStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="551">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lss-pattern-proxy/src/com/lss/pattern/proxy/statied/Son.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lss-pattern-proxy/src/com/lss/pattern/proxy/statied/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lss-pattern-proxy/src/com/lss/pattern/proxy/statied/Father.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2252" max-vertical-offset="10203">
+          <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
+          <folding>
+            <element signature="e#5748#5749#0" expanded="true" />
+            <element signature="e#5784#5785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.6333334" vertical-offset="17637" max-vertical-offset="58311">
+          <caret line="989" column="24" selection-start-line="989" selection-start-column="21" selection-end-line="989" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2138" max-vertical-offset="11001">
+          <caret line="140" column="13" selection-start-line="140" selection-start-column="13" selection-end-line="140" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/AbstractMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="732" max-vertical-offset="15029">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="23114" max-vertical-offset="44156">
+          <caret line="1279" column="16" selection-start-line="1279" selection-start-column="16" selection-end-line="1279" selection-end-column="16" />
+          <folding>
+            <element signature="e#19296#19297#0" expanded="true" />
+            <element signature="e#19379#19380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6337" max-vertical-offset="22097">
+          <caret line="374" column="19" selection-start-line="374" selection-start-column="14" selection-end-line="374" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lss-pattern-proxy/src/com/lss/pattern/proxy/statied/StatiedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7866242" vertical-offset="228" max-vertical-offset="665">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1215,11 +1366,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>lss-pattern-factory</last-edited>
+          <last-edited>lss-pattern-proxy</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
