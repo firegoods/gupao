@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/design/design.iml" filepath="$PROJECT_DIR$/design/design.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lss-java-tutorial-basic/lss-java-tutorial-basic.iml" filepath="$PROJECT_DIR$/lss-java-tutorial-basic/lss-java-tutorial-basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/lss-pattern-adapter/lss-pattern-adapter.iml" filepath="$PROJECT_DIR$/lss-pattern-adapter/lss-pattern-adapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/lss-pattern-decorator/lss-pattern-decorator.iml" filepath="$PROJECT_DIR$/lss-pattern-decorator/lss-pattern-decorator.iml" />
       <module fileurl="file://$PROJECT_DIR$/lss-pattern-delegate/lss-pattern-delegate.iml" filepath="$PROJECT_DIR$/lss-pattern-delegate/lss-pattern-delegate.iml" />
