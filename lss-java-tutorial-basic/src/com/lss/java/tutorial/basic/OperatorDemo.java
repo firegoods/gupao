@@ -8,10 +8,14 @@ public class OperatorDemo implements Demo{
 
     public static void main(String[] args) {
         try {
+            //jdk 1.8之后接口里面可以写 public default 和 public static 有方法体方法
             new OperatorDemo().test();
             simpleAssign();
             arithmetic();
+            //一元操作符
             unaryOperator();
+            //++result result++
+            ProPostOperator();
         }catch (Exception e){
 
         }
@@ -104,5 +108,27 @@ public class OperatorDemo implements Demo{
         //true
         System.out.println(!success);
 
+    }
+
+    /**
+     *
+     * 如果只是做简单的自增或者自减，两者没有区别
+     * 如果是在表达式中，还是有区别的
+     * 摘自官网：
+     * The only difference is that the prefix version (++result) evaluates to the incremented value,
+     * whereas the postfix version (result++) evaluates to the original value.
+     *
+     * ++result 得到的是一个自增值
+     * result++ 得到一个原始值
+     */
+    public static void ProPostOperator(){
+        System.out.println("====ProPostOperator===");
+        int result = 1;
+        result = ++result;
+        //print 2
+        System.out.println(result);
+        result = result++;
+        //print 3
+        System.out.println(result);
     }
 }
