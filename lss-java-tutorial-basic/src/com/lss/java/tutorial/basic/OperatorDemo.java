@@ -118,17 +118,24 @@ public class OperatorDemo implements Demo{
      * The only difference is that the prefix version (++result) evaluates to the incremented value,
      * whereas the postfix version (result++) evaluates to the original value.
      *
-     * ++result 得到的是一个自增值
-     * result++ 得到一个原始值
+     * ++result 先得到一个加1值再执行语句
+     * result++ 得到一个原始值，再执行语句，然后在加1
      */
     public static void ProPostOperator(){
         System.out.println("====ProPostOperator===");
         int result = 1;
-        result = ++result;
+        ++result;
         //print 2
         System.out.println(result);
-        result = result++;
+        result++;
         //print 3
+        System.out.println(result);
+
+        //print 4
+        System.out.println(++result);
+        //print 4
+        System.out.println(result++);
+        //print 5
         System.out.println(result);
     }
 }
