@@ -1,0 +1,31 @@
+课后作业
+1. Mapper在spring管理下其实是单例，为什么可以是一个
+单例？ SCOPE -> application
+
+Mapper是怎么出现的？
+正常情况下面：XxxMapper xxxMapper = sqlsession.getMapper(XxxMapper.class);
+ 这个XxxMapper是方法级别的，每次sqlsession用完之后都会被回收，但是为什么在spring中，XxxMapper为什么可以是单列的？
+先解释一下XxxMapper的出现，以前是sqlsession.selectOne(statement,args..objects),很容易将参数写错，并且在运行时才能知道,现在换成
+XxxMapper相当于对底层进行屏蔽，不容易将参数写错。这个就是XxxMapper出现的原因。
+
+为什么不用类而是用接口这就不知道了？
+
+为什么Mapper是可以是单列的呢？
+其实Mapper在功能上只是用来寻找sql用的，它的功能属性决定了它只是单列的。
+
+2. MyBatis在Spring集成下没有mapper的xml文件会不会
+报错，为什么？
+不会，因为xml和注解是相互补充关系，是先加载xml然后再加载注解。
+如果xml和注解都不存在就会报错，如果xml和注解都有会报错
+
+3. TypeHandler手写
+
+4. 手写Plugin,多个interceptor到底谁先执行？顺序由谁决定的？
+mybatis是一个Plugin是这个数组，当把多个interceptor放进去，mybatis是迭代的，所以是顺序执行
+
+作业提交地址：http://git.gupaoedu.com/vip/statics/tree/master/%E6%BA%90%E7%A0%81%E4%B8%93%E9%A2%98/Mybatis
+作业提交教程：http://git.gupaoedu.com/vip/nice/issues/38
+
+
+部分笔记
+COC  conversation over configuration
