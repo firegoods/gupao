@@ -4,11 +4,26 @@
 因为没有必要，TestMapper只是用来找sql的和绑定参数的，没有必要用类。
 
 2.org.apache.ibatis.executor.BaseExecutor#queryFromDatabase 322行这行代码的意义
+322 localCache.putObject(key, EXECUTION_PLACEHOLDER);
+    try {
+      list = doQuery(ms, parameter, rowBounds, resultHandler, boundSql);
+    } finally {
+      localCache.removeObject(key);
+    }
+    localCache.putObject(key, list);
+    if (ms.getStatementType() == StatementType.CALLABLE) {
+      localOutputParameterCache.putObject(key, parameter);
+    }
+    return list;
 
+    应该是用没查询之前用key-占位符这种形式将key要缓存的内容占住。
 
 3.MyBatis的plugin实现机制
+是一个数组，在需要的时候进行迭代
+
 
 4.lazy loading 是怎么做到的？
+
 
 部分笔记
 
