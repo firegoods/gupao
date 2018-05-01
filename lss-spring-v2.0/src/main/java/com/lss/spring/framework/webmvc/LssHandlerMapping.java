@@ -10,7 +10,7 @@ public class LssHandlerMapping {
 
     private Method method;
 
-    private Pattern pattern;
+    private Pattern pattern;//url封装
 
     public LssHandlerMapping(Pattern pattern, Object controller, Method method) {
         this.controller = controller;

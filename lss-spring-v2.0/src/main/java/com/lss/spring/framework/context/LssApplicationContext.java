@@ -1,6 +1,5 @@
 package com.lss.spring.framework.context;
 
-import com.lss.spring.demo.mvc.DemoAction;
 import com.lss.spring.framework.annotion.LssAutowried;
 import com.lss.spring.framework.annotion.LssController;
 import com.lss.spring.framework.annotion.LssService;
@@ -15,6 +14,7 @@ import java.lang.reflect.Field;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Properties;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class LssApplicationContext implements BeanFactory {
@@ -50,8 +50,8 @@ public class LssApplicationContext implements BeanFactory {
         //这里自动调用getbean方法
         doAutowrited();
 
-        DemoAction demoAction = (DemoAction) this.getBean("demoAction");
-        demoAction.query(null,null,"lss most nb!");
+        /*DemoAction demoAction = (DemoAction) this.getBean("demoAction");
+        demoAction.query(null,null,"lss most nb!");*/
 
 
 
@@ -199,6 +199,22 @@ public class LssApplicationContext implements BeanFactory {
             e.printStackTrace();
         } finally {
         }
+    }
+
+
+    public int getBeanDefinitionCount() {
+        /*return getBeanFactory().getBeanDefinitionCount();*/
+        return this.beanDefinitionMap.size();
+    }
+
+
+    public String[] getBeanDefinitionNames() {
+        /*return getBeanFactory().getBeanDefinitionNames();*/
+        return this.beanDefinitionMap.keySet().toArray(new String[this.beanDefinitionMap.size()]);
+    }
+
+    public Properties getConfig(){
+        return this.reader.getConfig();
     }
 
 

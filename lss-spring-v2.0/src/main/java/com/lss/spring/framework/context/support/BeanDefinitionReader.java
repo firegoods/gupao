@@ -79,4 +79,8 @@ public class BeanDefinitionReader {
         chars[0] +=32;
         return String.valueOf(chars);
     }
+
+    public Properties getConfig() {
+        return config;
+    }
 }
