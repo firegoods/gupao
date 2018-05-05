@@ -1,7 +1,10 @@
 package com.lss.spring.framework.webmvc;
 
+import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.lang.reflect.InvocationTargetException;
 import java.util.Arrays;
 import java.util.Map;
 
@@ -20,7 +23,7 @@ public class LssHandlerAdapter {
      * @param handler 为什么要把HanddlerMapping 传入进来？ 因为包含了controller、method、url等信息
      * @return
      */
-    public LssModelAndView handle(HttpServletRequest request, HttpServletResponse response, LssHandlerMapping handler) throws Exception{
+    public LssModelAndView handle(HttpServletRequest request, HttpServletResponse response, LssHandlerMapping handler) throws ServletException, IOException, InvocationTargetException, IllegalAccessException {
         //根据用户请求的参数信息，更method中参数进行动态匹配
         //response 传进来的目的只有一个，就是将servlet中的response赋值给方法参数，仅此而已
 

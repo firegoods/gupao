@@ -29,7 +29,7 @@ public class MyAction {
 	public LssModelAndView query(HttpServletRequest request, HttpServletResponse response,
 								 @LssRequestParam("name") String name){
 		String result = queryService.query(name);
-		System.out.println(result);
+		//System.out.println(result);
 		return out(response,result);
 	}
 	
@@ -37,6 +37,7 @@ public class MyAction {
 	public LssModelAndView add(HttpServletRequest request,HttpServletResponse response,
 			   @LssRequestParam("name") String name,@LssRequestParam("addr") String addr){
 		String result = modifyService.add(name,addr);
+
 		return out(response,result);
 	}
 	

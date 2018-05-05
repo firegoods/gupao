@@ -1,6 +1,6 @@
 package com.lss.spring.framework.core;
 
-public interface BeanFactory {
+public interface LssBeanFactory {
 
     /**
      * 根据beanName从IOC容器中获取一个bean实例

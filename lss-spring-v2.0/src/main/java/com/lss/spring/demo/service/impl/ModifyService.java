@@ -16,6 +16,7 @@ public class ModifyService implements IModifyService {
 	 * 增加
 	 */
 	public String add(String name,String addr) {
+		System.out.println("ModifyService.add");
 		return "modifyService add,name=" + name + ",addr=" + addr;
 	}
 

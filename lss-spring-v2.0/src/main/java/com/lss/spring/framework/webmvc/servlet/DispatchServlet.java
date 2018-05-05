@@ -3,6 +3,7 @@ package com.lss.spring.framework.webmvc.servlet;
 import com.lss.spring.framework.annotion.LssController;
 import com.lss.spring.framework.annotion.LssRequestMapping;
 import com.lss.spring.framework.annotion.LssRequestParam;
+import com.lss.spring.framework.aop.LssAopProxyUtils;
 import com.lss.spring.framework.context.LssApplicationContext;
 import com.lss.spring.framework.webmvc.LssHandlerAdapter;
 import com.lss.spring.framework.webmvc.LssHandlerMapping;
@@ -48,9 +49,9 @@ public class DispatchServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String url = req.getRequestURI();
-        String contextPath = req.getContextPath();
-        url = url.replace(contextPath,"").replaceAll("/+", "/");
+        //String url = req.getRequestURI();
+        //String contextPath = req.getContextPath();
+        //url = url.replace(contextPath,"").replaceAll("/+", "/");
         /*LssHandlerMapping  handler = handlerMappings.get(url);*/
 
         //对象.方法名字
@@ -68,12 +69,14 @@ public class DispatchServlet extends HttpServlet {
         try {
             doDispatch(req, resp);
         } catch (Exception e) {
-            resp.getWriter().write("500 Exception:\r\n" + Arrays.toString(e.getStackTrace()).replaceAll("\\[\\]", "")
-                    .replaceAll("\\s","\r\n")  + "@LSS");
+
+            resp.getWriter().write("<font size='25' color='blue'>500 Exception</font><br/>Details:<br/>" + Arrays.toString(e.getStackTrace()).replaceAll("\\[|\\]","")
+                    .replaceAll("\\s","\r\n") +  "<font color='green'><i>Copyright@Lss</i></font>");
+            e.printStackTrace();
         }
     }
 
-    private void doDispatch(HttpServletRequest req, HttpServletResponse resp)throws Exception{
+    private void doDispatch(HttpServletRequest req, HttpServletResponse resp) throws Exception {
             //更据用户请求的url来获取一个handler
             LssHandlerMapping handler = getHandler(req);
             if (handler == null){
@@ -84,11 +87,12 @@ public class DispatchServlet extends HttpServlet {
 
             LssModelAndView mv =  ha.handle(req,resp,handler);
 
+
             processDispatchResult(resp, mv);
 
     }
 
-    private void processDispatchResult(HttpServletResponse resp, LssModelAndView mv) throws Exception{
+    private void processDispatchResult(HttpServletResponse resp, LssModelAndView mv) throws Exception {
         //调用viewreslover的viewreslover
         if (null == mv){
             return;
@@ -229,32 +233,44 @@ public class DispatchServlet extends HttpServlet {
 
         //首先从容器中取到所有的bean
         String[] beanNames = context.getBeanDefinitionNames();
-        for (String beanName: beanNames){
-            Object controller = context.getBean(beanName);
 
-            Class<?> clazz = controller.getClass();
-            //但是不是所有的bean是要取
-            if (!clazz.isAnnotationPresent(LssController.class)){
-                continue;
-            }
-            String baseUrl = "";
-            if (clazz.isAnnotationPresent(LssRequestMapping.class)){
-                LssRequestMapping requestMapping = clazz.getAnnotation(LssRequestMapping.class);
-                baseUrl = requestMapping.value();
-            }
+        try {
+            for (String beanName: beanNames){
+                //到了mvc层，对外提供的方法只有一个getBean方法
+                //返回的对象不是BeanWrapper，怎么办
+                Object proxy = context.getBean(beanName);
+                Object controller =  LssAopProxyUtils.getTargetObject(proxy);
+                //Object controller = context.getBean(beanName);
 
-            //扫描所有的public方法
-            Method[] methods = clazz.getMethods();
-            for (Method method: methods){
-                if (!method.isAnnotationPresent(LssRequestMapping.class)){
+                Class<?> clazz = controller.getClass();
+                //不是所有的牛奶都叫特伦舒
+                //但是不是所有的bean是要取
+                //代理对象没有注解怎么办？
+                //spring里面AopProxyUtils 可以通过代理对象拿到原始类
+                if (!clazz.isAnnotationPresent(LssController.class)){
                     continue;
                 }
-                LssRequestMapping requestMapping = method.getAnnotation(LssRequestMapping.class);
-                String regex = ("/" + baseUrl +requestMapping.value().replaceAll("\\*",".*")).replaceAll("/+", "/");
-                Pattern pattern = Pattern.compile(regex);
-                this.handlerMappings.add(new LssHandlerMapping(pattern, controller, method));
-                System.out.println("Mapping: " + regex + "," + method);
+                String baseUrl = "";
+                if (clazz.isAnnotationPresent(LssRequestMapping.class)){
+                    LssRequestMapping requestMapping = clazz.getAnnotation(LssRequestMapping.class);
+                    baseUrl = requestMapping.value();
+                }
+
+                //扫描所有的public方法
+                Method[] methods = clazz.getMethods();
+                for (Method method: methods){
+                    if (!method.isAnnotationPresent(LssRequestMapping.class)){
+                        continue;
+                    }
+                    LssRequestMapping requestMapping = method.getAnnotation(LssRequestMapping.class);
+                    String regex = ("/" + baseUrl +requestMapping.value().replaceAll("\\*",".*")).replaceAll("/+", "/");
+                    Pattern pattern = Pattern.compile(regex);
+                    this.handlerMappings.add(new LssHandlerMapping(pattern, controller, method));
+                    System.out.println("Mapping: " + regex + "," + method);
+                }
             }
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 

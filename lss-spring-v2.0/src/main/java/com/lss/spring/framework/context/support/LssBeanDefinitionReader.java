@@ -1,6 +1,6 @@
 package com.lss.spring.framework.context.support;
 
-import com.lss.spring.framework.beans.BeanDefinition;
+import com.lss.spring.framework.beans.LssBeanDefinition;
 
 import java.io.File;
 import java.io.IOException;
@@ -12,7 +12,7 @@ import java.util.Properties;
 
 
 //对配置文件进行查找、读取、解析
-public class BeanDefinitionReader {
+public class LssBeanDefinitionReader {
 
     private Properties config = new Properties();
 
@@ -20,7 +20,7 @@ public class BeanDefinitionReader {
 
     private List<String> registerBeanClasses = new ArrayList<String>();
 
-    public BeanDefinitionReader(String ...locations) {
+    public LssBeanDefinitionReader(String ...locations) {
         InputStream is = this.getClass().getClassLoader().getResourceAsStream(locations[0].replace("classpath:",""));
 
         try {
@@ -61,12 +61,12 @@ public class BeanDefinitionReader {
 
     //每注册一个classname，就返回一个beandefinition
     // 只是为了对配置信息做进一步包装
-    public BeanDefinition registerBean(String className) {
+    public LssBeanDefinition registerBean(String className) {
         if (this.registerBeanClasses.contains(className)){
-            BeanDefinition beanDefinition = new BeanDefinition();
-            beanDefinition.setBeanClassName(className);
-            beanDefinition.setFactoryBeanName(lowerFirstCase(className.substring(className.lastIndexOf(".")+1)));
-            return beanDefinition;
+            LssBeanDefinition lssBeanDefinition = new LssBeanDefinition();
+            lssBeanDefinition.setBeanClassName(className);
+            lssBeanDefinition.setFactoryBeanName(lowerFirstCase(className.substring(className.lastIndexOf(".")+1)));
+            return lssBeanDefinition;
 
 
 

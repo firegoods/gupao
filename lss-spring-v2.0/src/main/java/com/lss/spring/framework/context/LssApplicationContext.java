@@ -3,31 +3,35 @@ package com.lss.spring.framework.context;
 import com.lss.spring.framework.annotion.LssAutowried;
 import com.lss.spring.framework.annotion.LssController;
 import com.lss.spring.framework.annotion.LssService;
-import com.lss.spring.framework.beans.BeanDefinition;
-import com.lss.spring.framework.beans.BeanPostProcessor;
-import com.lss.spring.framework.beans.BeanWrapper;
-import com.lss.spring.framework.context.support.BeanDefinitionReader;
-import com.lss.spring.framework.core.BeanFactory;
+import com.lss.spring.framework.aop.LssAopConfig;
+import com.lss.spring.framework.beans.LssBeanDefinition;
+import com.lss.spring.framework.beans.LssBeanPostProcessor;
+import com.lss.spring.framework.beans.LssBeanWrapper;
+import com.lss.spring.framework.context.support.LssBeanDefinitionReader;
+import com.lss.spring.framework.core.LssBeanFactory;
 
 
 import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
-public class LssApplicationContext implements BeanFactory {
+public class LssApplicationContext extends LssDefaultListableBeanFactory implements LssBeanFactory {
 
     private String[] configLocations;
 
-    private BeanDefinitionReader reader;
+    private LssBeanDefinitionReader reader;
 
-    private Map<String,BeanDefinition> beanDefinitionMap = new ConcurrentHashMap<String, BeanDefinition>();
+
 
     private Map<String,Object> beanCacheMap = new HashMap<String, Object>();
 
-    private Map<String,BeanWrapper> beanWrapperMap = new ConcurrentHashMap<String, BeanWrapper>();
+    private Map<String,LssBeanWrapper> beanWrapperMap = new ConcurrentHashMap<String, LssBeanWrapper>();
 
     public LssApplicationContext(String ... configLocations) {
         this.configLocations = configLocations;
@@ -37,7 +41,7 @@ public class LssApplicationContext implements BeanFactory {
 
     private void refesh() {
         //定位
-        this.reader = new BeanDefinitionReader(this.configLocations);
+        this.reader = new LssBeanDefinitionReader(this.configLocations);
 
         //加载
          List<String> beanDefinitions = reader.loadBeanDefinitions();
@@ -59,19 +63,22 @@ public class LssApplicationContext implements BeanFactory {
     //开始进行依赖注入
     private void doAutowrited() {
 
-        for(Map.Entry<String,BeanDefinition> beanDefinitionEntry : this.beanDefinitionMap.entrySet()){
+        for(Map.Entry<String,LssBeanDefinition> beanDefinitionEntry : this.beanDefinitionMap.entrySet()){
             String beanName = beanDefinitionEntry.getKey();
             if (!beanDefinitionEntry.getValue().isLazyInit()){
                 Object beanWrapper = getBean(beanName);
-                System.out.println("=====1111========="+beanName+" ,"+beanWrapper);
+                System.out.println(beanWrapper.getClass());
+                //System.out.println("=====1111========="+beanName+" ,"+beanWrapper);
             }
 
         }
 
-        for (Map.Entry<String,BeanWrapper> beanWrapperEntry:this.beanWrapperMap.entrySet()){
+        for (Map.Entry<String,LssBeanWrapper> beanWrapperEntry:this.beanWrapperMap.entrySet()){
             //进行属性注入
-            populateBean(beanWrapperEntry.getKey(),beanWrapperEntry.getValue().getWrapperInstance());
+            //populateBean(beanWrapperEntry.getKey(),beanWrapperEntry.getValue().getWrapperInstance());
+            populateBean(beanWrapperEntry.getKey(),beanWrapperEntry.getValue().getOriginalInstance());
         }
+        //System.out.println("populateBean==========");
     }
 
     private void populateBean(String beanName,Object instance) {
@@ -97,7 +104,7 @@ public class LssApplicationContext implements BeanFactory {
             field.setAccessible(true);
 
             try {
-                System.out.println("======================"+instance+" ,"+autowiredBeanName+","+this.beanWrapperMap.get(autowiredBeanName));
+                //System.out.println("======================"+instance+" ,"+autowiredBeanName+","+this.beanWrapperMap.get(autowiredBeanName));
                 field.set(instance,this.beanWrapperMap.get(autowiredBeanName).getWrapperInstance());
             } catch (IllegalAccessException e) {
                 e.printStackTrace();
@@ -105,6 +112,7 @@ public class LssApplicationContext implements BeanFactory {
             }
 
         }
+
     }
 
     //依赖注入
@@ -114,24 +122,29 @@ public class LssApplicationContext implements BeanFactory {
     //1、保留原本的OOP关系
     //2、需要对它进行扩展，增强（为以后的AOP打下基础）
     @Override
-    public Object getBean(String beanName) {
+    public Object getBean(String beanName){
 
-        BeanDefinition beanDefinition = this.beanDefinitionMap.get(beanName);
-        String className = beanDefinition.getBeanClassName();
+        LssBeanDefinition lssBeanDefinition = this.beanDefinitionMap.get(beanName);
+        String className = lssBeanDefinition.getBeanClassName();
 
-        BeanPostProcessor beanPostProcessor = new BeanPostProcessor();
+        LssBeanPostProcessor lssBeanPostProcessor = new LssBeanPostProcessor();
 
-        Object instance =  instantionBean(beanDefinition);
+        Object instance =  instantionBean(lssBeanDefinition);
         if (null ==instance){return null;}
         //在实例化之前调用一次
-        beanPostProcessor.postProcessBeforeInitialization(instance,beanName);
+        lssBeanPostProcessor.postProcessBeforeInitialization(instance,beanName);
 
-        BeanWrapper beanWrapper = new BeanWrapper(instance);
-        beanWrapper.setBeanPostProcessor(beanPostProcessor);
-        this.beanWrapperMap.put(beanName,beanWrapper);
+        LssBeanWrapper lssBeanWrapper = new LssBeanWrapper(instance);
+        try {
+            lssBeanWrapper.setAopConfig(instantiationAopConfig(lssBeanDefinition));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        lssBeanWrapper.setLssBeanPostProcessor(lssBeanPostProcessor);
+        this.beanWrapperMap.put(beanName, lssBeanWrapper);
 
         //在实例化之h后调用一次
-        beanPostProcessor.postProcessAfterInitialization(instance,beanName);
+        lssBeanPostProcessor.postProcessAfterInitialization(instance,beanName);
 
         //populateBean(beanName,instance);
         //通过这样一调用给了我们留了可操作的空间
@@ -139,9 +152,9 @@ public class LssApplicationContext implements BeanFactory {
     }
 
     //传一个beandefinition 就返回一个bean
-    private Object instantionBean(BeanDefinition beanDefinition) {
+    private Object instantionBean(LssBeanDefinition lssBeanDefinition) {
         Object instance = null;
-        String className = beanDefinition.getBeanClassName();
+        String className = lssBeanDefinition.getBeanClassName();
 
         try {
             //因为根据class才能确定一个类是否有实例
@@ -180,16 +193,16 @@ public class LssApplicationContext implements BeanFactory {
                 if (beanClass.isInterface()){
                     continue;
                 }
-                BeanDefinition beanDefinition = reader.registerBean(className);
-                if (beanDefinition!=null){
-                    this.beanDefinitionMap.put(beanDefinition.getFactoryBeanName(),beanDefinition);
+                LssBeanDefinition lssBeanDefinition = reader.registerBean(className);
+                if (lssBeanDefinition !=null){
+                    this.beanDefinitionMap.put(lssBeanDefinition.getFactoryBeanName(), lssBeanDefinition);
                 }
                 Class<?>[] interfaces = beanClass.getInterfaces();
                 for (Class<?> i:interfaces){
                     //如果是多个实现类智能覆盖
                     //spring就是这么sb
                     //这里可以自定义名字
-                    this.beanDefinitionMap.put(i.getName(),beanDefinition);
+                    this.beanDefinitionMap.put(i.getName(), lssBeanDefinition);
                 }
                 //到这里初始化就完毕了
 
@@ -218,5 +231,32 @@ public class LssApplicationContext implements BeanFactory {
     }
 
 
+
+    //初始化
+    private LssAopConfig instantiationAopConfig(LssBeanDefinition beanDefinition) throws Exception{
+        LssAopConfig config = new LssAopConfig();
+        String expression = reader.getConfig().getProperty("pointcut");
+        String[] before = reader.getConfig().getProperty("aspectBefore").split("\\s");
+        String[] after = reader.getConfig().getProperty("aspectAfter").split("\\s");
+
+
+        String className = beanDefinition.getBeanClassName();
+        Class<?> clazz = Class.forName(className);
+        Pattern pattern = Pattern.compile(expression);
+        Class aspectClass = Class.forName(before[0]);
+        //这里得到的方法是原生的方法
+        for (Method method: clazz.getMethods()){
+            //public .* com\.lss\.spring\.demo\.service\..*Service\..*\(.*\)
+            //public java.lang.String com.lss.spring.demo.service.impl.ModifyService.add(java.lang.String,java.lang.String)
+            Matcher matcher = pattern.matcher(method.toString());
+            if (matcher.matches()){
+                //能满足切面规则的类添加到aop中
+                config.put(method,aspectClass.newInstance(),new Method[]{aspectClass.getMethod(before[1]),aspectClass.getMethod(after[1])});
+            }
+        }
+
+        return config;
+
+    }
 
 }

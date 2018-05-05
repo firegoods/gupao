@@ -1,6 +1,6 @@
 package com.lss.spring.framework.beans;
 
-public class BeanPostProcessor {
+public class LssBeanPostProcessor {
 
     public Object postProcessBeforeInitialization(Object bean, String beanName) {
         return bean;
