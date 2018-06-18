@@ -5,20 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.lss.demo</groupId>
-    <artifactId>lss-zk</artifactId>
+    <artifactId>lss-rmi-server</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 
     <dependencies>
         <dependency>
@@ -46,8 +34,6 @@
             <artifactId>curator-recipes</artifactId>
             <version>4.0.0</version>
         </dependency>
-
-
-
     </dependencies>
+
 </project>
