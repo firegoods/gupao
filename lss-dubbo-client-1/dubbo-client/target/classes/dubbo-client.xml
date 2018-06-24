@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans        http://www.springframework.org/schema/beans/spring-beans.xsd        http://code.alibabatech.com/schema/dubbo        http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+    <!-- 提供方信息-->
+    <dubbo:application name="server-client" />
+
+    <!-- 注册中心 -->
+    <!-- 缓存的是地址服务提供者的地址 -->
+    <!-- 在zookeeper上consumer节点上注册客户端的地址是采用订阅/消费的模式通知消费端地址更新 -->
+    <!-- file="../doubbo-server" -->
+    <dubbo:registry address="zookeeper://192.168.52.5:2181" file="../doubbo-server" />
+
+    <dubbo:protocol  name="dubbo" port="20880" />
+
+    <!-- check 解决循环依赖问题-->
+    <dubbo:reference id="iHello" interface="com.lss.dubbo.IHello" check="false"/>
+
+
+
+
+</beans>
