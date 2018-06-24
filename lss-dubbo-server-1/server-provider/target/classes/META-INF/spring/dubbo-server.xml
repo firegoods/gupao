@@ -11,10 +11,15 @@
 
     <dubbo:protocol  name="dubbo" port="20880" />
 
-    <dubbo:service interface="com.lss.dubbo.IHello" ref="iHello" />
+    <dubbo:service interface="com.lss.dubbo.IHello" ref="iHello" timeout="100" />
 
-    <bean id="iHello" class="com.lss.dubbo.IHelloImpl" />
+  <!--  <dubbo:service interface="com.lss.dubbo.IHello" ref="iHelloV1" version="1.0.1" />
+    <dubbo:service interface="com.lss.dubbo.IHello" ref="iHelloV2" version="1.0.2" />-->
 
+    <bean id="iHello" class="com.lss.dubbo.IHelloImpl"  />
+
+  <!--  <bean id="iHelloV1" class="com.lss.dubbo.IHelloV1Impl" />
+    <bean id="iHelloV2" class="com.lss.dubbo.IHelloV2Impl" />-->
 
 
 

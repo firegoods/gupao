@@ -10,13 +10,30 @@
     <!-- 缓存的是地址服务提供者的地址 -->
     <!-- 在zookeeper上consumer节点上注册客户端的地址是采用订阅/消费的模式通知消费端地址更新 -->
     <!-- file="../doubbo-server" -->
-    <dubbo:registry address="zookeeper://192.168.52.5:2181" file="../doubbo-server" />
+    <dubbo:registry id="zookeeper" address="zookeeper://192.168.52.5:2181" file="../doubbo-server" />
 
     <dubbo:protocol  name="dubbo" port="20880" />
 
-    <!-- check 解决循环依赖问题-->
-    <dubbo:reference id="iHello" interface="com.lss.dubbo.IHello" check="false"/>
+    <!-- check=false 解决循环依赖问题-->
+    <dubbo:reference id="iHello" interface="com.lss.dubbo.IHello"
+                     check="false" registry="zookeeper"
+                     mock="com.lss.dubbo.TestMock" timeout="1"
 
+     />
+
+    <!-- 容错机制6种-->
+    <!-- failsafe-->
+    <!-- failover-->
+    <!-- failfast-->
+    <!-- failback-->
+    <!-- forking  forks-->
+    <!-- boradcast-->
+    <!-- 配置级别-->
+    <!-- 方法级别 接口 全局-->
+    <!-- 级别一样客户端优先-->
+
+    <!-- 服务降级-->
+    <!-- dubbo的降级方式moc-->
 
 
 
